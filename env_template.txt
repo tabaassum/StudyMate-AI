@@ -1,0 +1,28 @@
+# Copy this file and rename the copy to ".env", then paste your keys.
+# You only need ONE key to use the app. More keys = you can switch when one hits its limit.
+# (You can also paste keys inside the app: sidebar -> ⚙️ AI Settings)
+# Rules: no spaces around "=", no quotes.
+
+# Google Gemini (free): https://aistudio.google.com/apikey
+GEMINI_API_KEY=
+
+# Groq (free, fast, ~1000 requests/day): https://console.groq.com/keys
+GROQ_API_KEY=
+
+# Ollama Cloud (free plan): https://ollama.com/settings/keys
+OLLAMA_API_KEY=
+
+# Anthropic Claude (paid, optional): https://console.anthropic.com/settings/keys
+ANTHROPIC_API_KEY=
+
+# Which AI to use when the app starts: Gemini, Groq, Ollama or Claude
+DEFAULT_PROVIDER=Groq
+
+# Optional - leave empty and the app picks the best available model automatically
+# GEMINI_MODEL=
+# GROQ_MODEL=llama-3.3-70b-versatile
+# OLLAMA_MODEL=gpt-oss:120b
+# CLAUDE_MODEL=claude-sonnet-5-5
+
+# Optional - use Ollama installed on your own Mac instead of Ollama Cloud (no key needed):
+# OLLAMA_HOST=http://localhost:11434
