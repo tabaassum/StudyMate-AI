@@ -60,7 +60,7 @@ Python 3.12 · Streamlit · PyMuPDF · sentence-transformers · ChromaDB · SQLi
 
 ```bash
 # 1. Get the code
-git clone https://github.com/<your-username>/StudyMate-AI.git
+git clone https://github.com/tabaassum/StudyMate-AI.git
 cd StudyMate-AI
 
 # 2. Create a virtual environment and install packages
@@ -121,7 +121,7 @@ StudyMate-AI/
 
 ## 👤 Author
 
-**Md Juburaj Al Saba** — AI Engineering final project, 2026
+**Tabassum** — AI Engineering final project, 2026
 
 ## 📄 License
 
