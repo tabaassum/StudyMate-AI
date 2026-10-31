@@ -1,0 +1,24 @@
+# --- Secrets: NEVER upload your API keys ---
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# --- App data (users, database, vector DB, uploaded PDFs) ---
+data/
+*.db
+*.sqlite3
+
+# --- Editors / OS / tools ---
+.idea/
+.vscode/
+.DS_Store
+.agents/
+.claude/
